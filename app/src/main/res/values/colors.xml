@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic text colors -->
+    <color name="text_black">#000000</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Poster image border -->
+    <color name="image_border_start">#B6B6B6</color>
+    <color name="image_border_end">#727272</color>
+    <color name="image_border_center">#455A64</color>
+    <color name="default_back_color">#212121</color>
+
+    <!-- Detail fragment - Rating stars -->
+    <color name="star_fully_selected">#ff970c</color>
+    <color name="star_partially_selected">#ffe15e</color>
+    <color name="star_not_selected">#7a786d</color>
+
+    <!-- Progress bar colors -->
+    <array name="swipe_progress_colors">
+        <item>@color/accent</item>
+        <item>@color/primary_dark</item>
+    </array>
+
+    <!-- Basic colors -->
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#536DFE</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="third_text">#B6B6B6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="window_background">#FFF5F5F5</color>
+
+    <!-- Toolbar -->
+    <color name="toolbar_start">#00303F9F</color>
+    <color name="toolbar_end">#C7303F9F</color>
+
+    <!-- Dropdown list -->
+    <color name="dropdown_foreground">#ff333333</color>
+</resources>

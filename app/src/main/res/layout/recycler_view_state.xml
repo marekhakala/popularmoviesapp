@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/recycler_view_state"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="49dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/recycler_view_state_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:tint="@color/primary_dark"
+        tools:src="@drawable/ic_error" />
+
+    <TextView
+        android:id="@+id/recycler_view_state_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/primary_dark"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        tools:text="@string/view_error_message" />
+
+    <Button
+        android:id="@+id/recycler_view_state_button"
+        android:layout_width="220dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Refresh"
+        android:textColor="@color/text_white"
+        android:background="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_refresh" />
+</LinearLayout>

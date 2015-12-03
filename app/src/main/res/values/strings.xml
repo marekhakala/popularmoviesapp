@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Popular Movies App</string>
+
+    <string name="content_authority" translatable="false">
+        com.nothing.mark.popmoviesapp.provider
+    </string>
+
+    <string name="__leak_canary_display_activity_label" translatable="false">
+        PopMoviesApp Leaks
+    </string>
+
+    <!-- Title -->
+    <string name="title_main">PopMoviesApp</string>
+
+    <!-- Basic messages -->
+    <string name="view_error_message">Offline viewing is not available.</string>
+    <string name="view_empty_message">You have not favorite movies yet.</string>
+
+    <!-- Main fragment -->
+    <string name="mode_order">Sorting</string>
+    <string name="mode_order_favorites">Favorites</string>
+    <string name="mode_order_popularity">Most popular</string>
+    <string name="mode_order_vote_average">Highest rated</string>
+
+    <!-- Main fragment - menu -->
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_go_to_top">Go to Top</string>
+
+    <!-- Detail fragment -->
+    <string name="movie_reviews">Reviews</string>
+    <string name="movie_trailers">Trailers</string>
+
+    <string name="movie_item_favorite">Save to favorites</string>
+    <string name="play_trailer">Play trailer</string>
+
+    <string name="message_movie_saved_to_favorites">Saved to favorites.</string>
+    <string name="message_empty_movie_fragment">Please, select movie.</string>
+
+    <!-- Detail fragment - menu -->
+    <string name="menu_favourite">Saved to favorites</string>
+    <string name="menu_share">Share</string>
+
+    <!-- Dummy text -->
+    <string name="dummy_title">Lorem Ipsum</string>
+    <string name="dummy_text">
+        Lorem ipsum dolor sit amet, an est facete eirmod, ut eos hinc volumus deserunt, in nec iusto probatus. Mel an eius atqui. Sea zril nostrum principes no. Iuvaret oporteat sed cu.
+    </string>
+
+    <!-- Sync account -->
+    <string name="sync_account_type">popmoviesapp.mark.nothing.com</string>
+</resources>

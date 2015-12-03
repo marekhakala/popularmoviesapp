@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.mark.popmoviesapp.UI.Widgets.MultiSwipeRefreshLayout
+    android:id="@+id/multi_swipe_refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <com.nothing.mark.popmoviesapp.UI.Widgets.RecyclerViewStatesWrapper
+        android:id="@+id/movies_recycler_view_states_wrapper"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <include layout="@layout/recycler_view_normal" android:id="@+id/movies_recycler_view" />
+        <include layout="@layout/recycler_view_loading" android:id="@+id/recycler_view_loading" />
+        <include layout="@layout/recycler_view_empty" android:id="@+id/recycler_view_empty" />
+        <include layout="@layout/recycler_view_error" android:id="@+id/recycler_view_error" />
+    </com.nothing.mark.popmoviesapp.UI.Widgets.RecyclerViewStatesWrapper>
+</com.nothing.mark.popmoviesapp.UI.Widgets.MultiSwipeRefreshLayout>

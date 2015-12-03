@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTheme">
+        <attr name="imageForeground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RecyclerViewStateView">
+        <attr name="messageIcon" format="reference" />
+        <attr name="messageText" format="string" />
+        <attr name="messageButton" format="boolean" />
+    </declare-styleable>
+</resources>

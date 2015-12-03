@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_order"
+        android:title="@string/mode_order"
+        android:visible="false"
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/menu_order_group"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_order_favorites"
+                    android:title="@string/mode_order_favorites"/>
+
+                <item
+                    android:id="@+id/menu_order_popularity"
+                    android:title="@string/mode_order_popularity" />
+
+                <item
+                    android:id="@+id/menu_order_vote_average"
+                    android:title="@string/mode_order_vote_average" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_go_to_top"
+        android:icon="@drawable/ic_up"
+        android:title="@string/menu_go_to_top"/>
+</menu>

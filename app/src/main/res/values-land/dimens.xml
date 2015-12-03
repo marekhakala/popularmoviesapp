@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Movie Detail Fragment -->
+    <dimen name="detail_movie_width">500dp</dimen>
+    <dimen name="detail_movie_margin_bottom">25dp</dimen>
+    <dimen name="detail_movie_height">185dp</dimen>
+</resources>

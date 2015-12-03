@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="@dimen/spinner_item_width"
+    tools:background="?colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/ModeOrderSpinner"
+        tools:text="@string/mode_order_favorites" />
+</LinearLayout>

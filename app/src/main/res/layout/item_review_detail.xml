@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/review_author"
+        style="@style/MovieDetailReviewTitle"
+        tools:text="@string/dummy_title" />
+
+    <TextView
+        android:id="@+id/review_text"
+        android:layout_below="@id/review_author"
+        style="@style/MovieDetailReviewText"
+        tools:text="@string/dummy_text" />
+</RelativeLayout>

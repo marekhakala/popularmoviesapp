@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+
+    <Spinner style="@style/Widget.Movies.HeaderBar.Spinner"
+        android:id="@+id/mode_spinner"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content" />
+</LinearLayout>

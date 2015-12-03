@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MovieDetailAnchor">
+        <item name="android:layout_alignTop">@id/movie_backdrop_container</item>
+        <item name="android:layout_alignBottom">@id/movie_backdrop_container</item>
+    </style>
+</resources>
