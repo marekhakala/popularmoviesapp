@@ -18,6 +18,16 @@
     android:theme="@style/Theme.PopularMovies">
 
     <activity
+        android:name=".UI.Activities.SplashActivity"
+        android:theme="@style/Theme.PopularMovies.Splash">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity
         android:name=".UI.Activities.MainActivity"
         android:label="@string/title_main"
         android:theme="@style/Theme.PopularMovies.MoviesList">
