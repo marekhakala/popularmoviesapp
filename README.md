@@ -1,4 +1,6 @@
-# PopularMoviesApp v1.0.0 (themoviesdb.org API)
+# Popular Movies v1.0.0 (themoviesdb.org API)
+
+![Popular Movies logo](Screenshots/popularmovies.png)
 
 The PopularMoviesApp is an application, optimized for tablets, to help users discover popular and highly rated movies on the web. It displays a scrolling grid of movie trailers, launches a details screen whenever a particular movie is selected, allows users to save favorites, play trailers, and read user reviews. This app utilizes core Android user interface components and fetches movie information using themoviedb.org web API.
 
@@ -13,7 +15,7 @@ The PopularMoviesApp is an application, optimized for tablets, to help users dis
  * You can save movie to favorites
  * You can watch trailers
  * You can read reviews
- 
+
 ## Libraries
  * [Support Design libraries](https://developer.android.com/topic/libraries/support-library/features.html) - Material design library
  * [Dagger 2](http://google.github.io/dagger/) - Dependency Injection library
